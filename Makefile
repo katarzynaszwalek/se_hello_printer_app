@@ -3,3 +3,6 @@ deps:
 	pip install -r test_requirements.txt
 lint:
 	flake8 hello_world test
+docker_build:
+	docker_build -t hello-world-printer .
+	
